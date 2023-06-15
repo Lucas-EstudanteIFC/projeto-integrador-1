@@ -1,0 +1,47 @@
+:root {
+    font-family: "Kanit", sans-serif;
+    background-image: url("https://st2.depositphotos.com/1000419/12451/v/450/depositphotos_124514706-stock-illustration-chemistry-background-seamless-pattern-for.jpg");
+  }
+  
+  .t{
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 30px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .t1{
+    margin: 1px;
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+
+  }
+
+  .linha-vertical {
+    height: 522px;
+    border-left: 2px solid;
+  }
+
+  #t1{
+    margin-left: 50px;
+    font-size: 40px;
+    flex-direction: column;
+    font-style: bold;
+  }
+
+  #img1{
+    width: 500px;
+  }
+  
+  #hr1
+   {
+    width: 200px;
+    border: 2px solid black;
+  }
+  #img11{
+    background-image: linear-gradient(180deg, rgb(65, 10, 110), rgb(255, 230, 0));
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+  }

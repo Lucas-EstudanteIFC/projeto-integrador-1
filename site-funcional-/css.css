@@ -1,0 +1,165 @@
+@charset "UTF-8";
+
+:root {
+  font-family: "Kanit", sans-serif;
+  background-image: url("https://st2.depositphotos.com/26645042/46912/v/600/depositphotos_469121316-stock-illustration-seamless-vector-pattern-with-dna.jpg");
+}
+
+.Titulo_1 {
+  text-align: center;
+  font-size: 60px;
+  font-family: "Kalam", cursive;
+  color: #3ad76b;
+}
+
+.link {
+  border-radius: 5px;
+  border: solid;
+  width: 100px;
+  height: 50px;
+  background-color: #d1dbda;
+  border-bottom: none;
+  border-right: none;
+}
+
+.link:hover {
+  background-color: #66f2e4;
+}
+
+.sambaqui {
+  text-align: right;
+  border-bottom: none;
+  border-right: none;
+  padding: 0px 10px 40px 0px;
+}
+
+.grid-container {
+  display: grid;
+  border: 3px solid;
+  border-radius: 16px;
+  column-gap: 10px;
+}
+
+.body1 {
+  border-radius: 12px;
+  background-color: rgb(177, 207, 183);
+}
+
+.btn:link,
+.btn:visited {
+  text-decoration: none;
+  color: rgb(27, 27, 27);
+  padding: 10px 25px;
+  border: 1px solid;
+  border-radius: 1000px;
+  display: inline-block;
+  transition: all 0.2s;
+  position: relative;
+  margin: 10px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  background-color: #6ab0cc;
+}
+
+.btn:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(27, 27, 27, 0.5);
+}
+
+.btn:active {
+  transform: translateY(-3px);
+}
+
+.btn::after {
+  content: "";
+  display: inline-block;
+  height: 100%;
+  width: 100%;
+  border-radius: 100px;
+  top: 0;
+  left: 0;
+  position: absolute;
+  z-index: -1;
+  transition: all 0.3s;
+}
+
+.btn:hover::after {
+  background-color: rgb(0, 238, 255);
+  transform: scaleX(1.4) scaleY(1.5);
+  opacity: 0;
+}
+
+.texto_sambaqui {
+  margin-right: 30px;
+}
+
+.paragrafo {
+  margin: 10px;
+  text-align: justify;
+  font-size: 20px;
+}
+
+.menu {
+  padding: 10px 20px;
+
+  border-radius: 16px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.git {
+  padding: 1px 25px 1px 25px;
+  width: 50%;
+  margin: 1px auto;
+  display: flex;
+  flex-wrap: nowrap;
+  color: white;
+}
+
+.p2 {
+  background-color: chocolate;
+  border: 2px solid black;
+  border-radius: 15px;
+  margin: 10px;
+  font-size: 50px;
+  text-align: center;
+}
+
+.p2:hover {
+  transition: all 0.5s;
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(27, 27, 27, 0.5);
+}
+
+#gith {
+  max-width: 60%;
+  max-height: 60%;
+  border-radius: 50%;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+@media screen and (max-width: 767px) {
+  
+  .body1{
+    margin: 0px auto;
+  }
+  .p2 {
+    font-size: 40px;
+    margin-right: 5px;
+    text-align: center;
+  }
+  #gith{
+    max-width: 60%;
+    max-height: 60%;
+  }
+  .git {
+    flex-wrap: wrap;
+    padding: 1px 65px 1px 25px;
+  }
+}
